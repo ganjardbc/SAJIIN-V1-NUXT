@@ -1,0 +1,56 @@
+.btn-custom {
+    &__main {
+        background-color: $main !important;
+        border-color: $main !important;
+        &:hover {
+            background-color: rgba($color: $main, $alpha: 0.8) !important;
+            border-color: rgba($color: $main, $alpha: 0.8) !important;
+        }
+    }
+    &__green {
+        background-color: $green !important;
+        border-color: $green !important;
+        &:hover {
+            background-color: rgba($color: $green, $alpha: 0.9) !important;
+            border-color: rgba($color: $green, $alpha: 0.9) !important;
+        }
+    }
+    &__transparent {
+        background-color: rgba($color: #000, $alpha: 0) !important;
+        &:hover {
+            background-color: rgba($color: #000, $alpha: 0.1) !important;
+        }
+    }
+    &__txt-white {
+        color: $white !important;
+    }
+    &__txt-black {
+        color: $black !important;
+    }
+    &__icon {
+        .center {
+            margin: auto;
+        }
+        .left {
+            margin-right: 8px;
+        }
+        .right {
+            margin-left: 8px;
+        }
+    }
+    &__align-center {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    &__align-left {
+        text-align: left !important;
+        justify-content: flex-start !important;
+    }
+    &__align-right {
+        text-align: right !important;
+        justify-content: flex-end !important;
+    }
+    &__no-border {
+        border: 0 #fff solid !important;
+    }
+}
